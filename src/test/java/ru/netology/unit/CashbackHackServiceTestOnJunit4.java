@@ -2,10 +2,10 @@ package ru.netology.unit;
 
 import org.junit.Test;
 
-//import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-public class CashbackHackServiceTest {
+public class CashbackHackServiceTestOnJunit4 {
+
     @Test
     public void shouldRemainBoundaryIfLess1000(){
         CashbackHackService  cashbackHack = new CashbackHackService();
